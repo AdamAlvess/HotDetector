@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  h1 {
+    margin: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #heatmapCanvas {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  

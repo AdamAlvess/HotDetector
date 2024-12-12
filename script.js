@@ -41,8 +41,8 @@ try {
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
       // Définir les marges (10% de la largeur/hauteur)
-      const marginX = canvas.width * 0.2;
-      const marginY = canvas.height * 0.2; 
+      const marginX = canvas.width * 0.11;
+      const marginY = canvas.height * 0.11; 
 
       const usableWidth = canvas.width - 2 * marginX;
       const usableHeight = canvas.height - 2 * marginY;

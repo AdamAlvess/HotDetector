@@ -30,7 +30,7 @@ try {
     }
 
     const img = new Image();
-    img.src = './assets/Armoire.png';
+    img.src = './assets/ArmoireTest.png';
 
     img.onload = function () {
       console.log("Image chargée avec succès :", img.src);

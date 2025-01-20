@@ -72,7 +72,7 @@ try {
               continue;
             }
 
-            if (temperature > 29.0) {
+            if (temperature > 50.0) {
               const x = marginX + j * cellWidth + cellWidth / 2;
               const y = marginY + i * cellHeight + cellHeight / 2;
 
